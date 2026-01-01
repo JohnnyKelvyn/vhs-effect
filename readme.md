@@ -26,6 +26,19 @@ gcc -o vhs main.c image.c vhs_effects.c utils.c -lm
 - `--preset-90s`: VHS qualidade média (padrão)
 - `--preset-clean`: VHS artístico limpo
 
+## 🎯 Exemplos (Antes & Depois)
+
+Abaixo, uma demonstração da comparação entre a imagem original e o resultado após a aplicação dos filtros com o preset padrão:
+
+| Imagem Original | Processada (`--preset-80s`) |
+| :---: | :---: |
+| <img src="./imagens/original.jpg" width="300"> | <img src="./imagens/preset-80s.png" width="300"> |
+
+**Créditos da imagem:** [Imagem por Freepik](https://www.freepik.com)
+
+> **Dica:** Para um visual mais autêntico, utilize imagens com proporção **4:3** ou resoluções nativas de época (como **640x480**). O efeito de *scanlines* e ruído se torna muito mais visível em resoluções menores.
+
+
 ## 🛠️ Tecnologias
 
 - C (gcc)
@@ -49,6 +62,9 @@ Este projeto foi desenvolvido com foco educacional e experimental. É importante
 * **Uso de IA:** Partes da implementação lógica e o refinamento de fórmulas complexas contaram com o auxílio de **Inteligência Artificial**.
 * **Trabalho em Progresso:** Por ser um projeto de aprendizado, ainda há muito o que melhorar em termos de performance, precisão dos algoritmos e refatoração de código.
 
+
 ---
 
 Desenvolvido como parte de aprendizado em C.
+
+
