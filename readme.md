@@ -2,6 +2,18 @@
 
 Aplicador de efeitos VHS em imagens estáticas.
 
+
+## 🔧 Como Funciona
+
+O processador aplica 11 efeitos em sequência otimizada:
+1. **Color shift** → Desaturação e tint amarelado
+2. **Chromatic aberration** → Separação RGB simulando falha de sincronismo
+3. **Tracking glitch** → Linhas horizontais deslocadas aleatoriamente
+4. **Scanlines** → Linhas de varredura CRT
+5. **Ordered dithering** → Redução de paleta via matriz Bayer
+
+> Usa `stb_image` para I/O e implementa manipulação direta de pixels em arrays lineares RGB.
+
 ## 🎨 Efeitos Implementados
 
 11 efeitos totais:
